@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="gambar/logoQ.jpeg" rel="shortcut icon"/>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Eufloria</title>
+</head>
+<body>
+    <header class="headerp" >
+        <a href="index.html" class="sitelog"></a><img src="gambar/logoQ.jpeg" class="log"></a>
+        <h1>happy shoping</h1>
+        <ul class="menu">
+            <li>
+                <a href="index.html">HOME</a>
+            </li>
+            <li>
+                <a href="galeri.html">ITEM</a>
+            </li>
+            <li>
+                <a href="kontak.html">ORDER HERE</a>
+            </li>
+            <li>
+                <a href="about.html">HARGA KEDAI</a>
+            </li>
+        </ul>        
+
+    </header>
+    <div class="container">
+        
+        <form class="contact-form" action="#" method="post">
+          <input required class="input-form laf" type="text" name="" value="" placeholder="Nama Anda">
+          <input required class="input-form laf" type="text" name="Alamat" value="" placeholder="Alamat anda">
+          <input required class="input-form laf" type="text" name="Kel/desa" value="" placeholder="Kel/desa">
+          <input required class="input-form laf" type="text" name="kecamatan" value="" placeholder="kecamatan anda">
+          <input required class="input-form laf" type="text" name="kota" value="" placeholder="kota ">
+          <input required class="input-form laf" type="number" name="kode" value="" placeholder="kode pos">
+          <input required class="input-form-number laf" type="number" name="" value="" placeholder="Jumlah" ng-model="jumlah">
+          <input required class="input-form-number laf" type="number" name="" value=""" ng-model="harga">
+          <input disabled required class="input-form-value" type="number" name="" value="{{jumlah*harga}}" placeholder="Hasil" ng-model="Hasil">
+          <div><input required class="input-form laf" type="number" name="" value="" placeholder="No.Handphone"></div>
+          
+          <textarea class="input-form" cols="6" rows="6" name="comment" placeholder="Catatan" required></textarea>
+          </textarea>
+    
+          <div style="overflow-x:auto;">
+            <label>Pilih Metode Pembayaran</label>
+            <table border=0 cellpadding="20">
+              <tr>
+                <th><input type="checkbox"  value=""><img src="gambar/bni.png" width="60px" height="20px"></th>
+                <th><input type="checkbox"  value=""><img src="gambar/bri.png" width="60px" height="20px"></th>
+                <th><input type="checkbox"  value=""><img src="gambar/bca-logo.png" width="60px" height="25px"></th>
+                <th><input type="checkbox"  value=""><img src="gambar/mandiri.jpg" width="70px" height="50px"></th>
+                <th><input type="checkbox"  value=""><img src="gambar/bukopin3.png" width="70px" height="50px"></th>
+                
+              </tr>
+              <tr>
+                <th><input type="checkbox"  value=""><img src="gambar/visa.png" width="60px" height="30px"></th>
+                <th><input type="checkbox"  value=""><img src="gambar/masterc.png" width="60px" height="30px"></th>
+                <th><input type="checkbox"  value=""><img src="gambar/paypal.png" width="60px" height="20px"></th>
+                <th><input type="checkbox"  value=""><img src="gambar/alfa.jpg" width="70px" height="50px"></th>
+                <th><input type="checkbox"  value=""><img src="gambar/gopay.jpg"65px" height="40px"></th>
+              </tr>
+            </table>
+          </div>
+          <a href="index.html" button class="btn-form-pay" id="pay" >Pay</button></a>
+          <button class="btn-form-change" id="myBtn">Batal</button>
+        </form>
+      </div>
+      <footer class="footer">
+        <div class="copyright">
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script>|Alfida Hasannah P
+        </div>
+    </footer>
+    
+    
+      </body>
+    </html>
